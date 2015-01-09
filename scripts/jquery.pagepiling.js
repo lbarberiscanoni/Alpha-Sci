@@ -1,4 +1,4 @@
-Purposegepiling.js 0.0.9 (Beta)
+egepiling.js 0.0.9 (Beta)
  *
  * https://github.com/alvarotrigo/pagePiling.js
  * MIT licensed
