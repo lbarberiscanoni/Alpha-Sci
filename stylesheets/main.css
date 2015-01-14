@@ -51,20 +51,20 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-h1, h2, h3, ul {
-  font-family: "lato", sans-serif;
-  font-weight: 300; }
+h1, h2, ul {
+  font-family: helvetica;
+  line-height: 1.6; }
 
 h1 {
-  font-size: 50px;
-  line-height: 1.6; }
+  font-size: 3.3em;
+  text-align: center; }
 
 h2 {
-  font-size: 36px;
-  line-height: 1.6; }
+  font-size: 1.8em;
+  text-align: center; }
 
 ul {
-  font-size: 22px;
+  font-size: 1.6em;
   list-style-type: square;
   line-height: 1.7; }
 
@@ -72,53 +72,34 @@ ul {
   width: 1300px;
   margin: 0 auto; }
 
-.main-footer {
-  font-family: "lato", sans-serif;
-  min-height: 50px;
-  margin-top: 30px;
-  text-align: center; }
-
-button {
-  width: 100px;
-  height: 50px;
-  background-color: white;
-  border-radius: 5px;
-  font-family: "brush-script-std";
-  font-size: 16px; }
-
-.to-top {
-  position: fixed;
-  top: 0%;
-  right: 0%; }
-
 .page {
   width: 100%;
   height: 100%;
   min-height: 700px; }
+  .page .box {
+    background: white; }
   .page ul {
     width: 60%;
     margin: 0 auto;
     padding: 40px;
     margin-top: 30px; }
     .page ul li {
-      line-height: 2.0;
+      line-height: 2.5;
       position: relative;
       left: 0;
       transition: left 500ms ease; }
       .page ul li:hover {
         position: relative;
         left: 15px; }
-      .page ul li a {
-        color: black;
-        text-decoration: none;
-        border-bottom: 1px dotted black; }
 
-.box {
-  background: white; }
-  .box h2 {
-    font-size: 50px;
-    font-family: "brush-script-std";
-    font-weight: 400;
+.attentionGetter {
+  border: 1px solid black;
+  width: 53%;
+  margin: 60px auto; }
+  .attentionGetter video {
+    height: 350px; }
+  .attentionGetter h3 {
+    margin: 20px auto;
     text-align: center; }
 
 .page:nth-of-type(5n+1) {
