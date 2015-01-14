@@ -1,4 +1,5 @@
-egepiling.js 0.0.9 (Beta)
+/* ===========================================================
+ * pagepiling.js 0.0.9 (Beta)
  *
  * https://github.com/alvarotrigo/pagePiling.js
  * MIT licensed
@@ -36,8 +37,8 @@ egepiling.js 0.0.9 (Beta)
                 'textColor': '#000',
                 'bulletsColor': '#000',
                 'position': 'right',
-                'tooltips': ['Home', 'HTML', 'CSS', 'File Management', 'Content', 'Grid', 'Typography', 'Color Theory', 'Style Tiles', 'Saving Images', 'Accessibility', 'Validation', 'Github', 'Sass', 'Command Line', 'RWD', 'Javascript', 'jQuery']
-            },
+                'tooltips': ['Home', 'Mission', 'Problem', 'Solution', 'Opportunity', 'Competitors', 'Advantages', 'Model']
+        	},
             normalScrollElements: null,
             normalScrollElementTouchThreshold: 5,
             touchSensitivity: 5,
