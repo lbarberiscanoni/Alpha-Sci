@@ -96,13 +96,13 @@ ul {
         position: relative;
         left: 15px; }
 
-.attentionGetter {
+.attentionGetter, .punchline {
   width: 55.5%;
   margin: 30px auto; }
-  .attentionGetter video {
+  .attentionGetter video, .punchline video {
     min-height: 350px;
     margin: 30px auto; }
-  .attentionGetter h3 {
+  .attentionGetter h3, .punchline h3 {
     margin: 20px auto;
     text-align: center; }
 
