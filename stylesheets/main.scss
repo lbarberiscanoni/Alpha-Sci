@@ -4,8 +4,8 @@ $default-line-height: 1.6;
 $ffTisaSans: "ff-tisa-sans-web-pro",sans-serif;
 $ffMarket: "ff-market-web",cursive;
 $grafolita: "grafolita-script",sans-serif;
-$main-font: helvetica;
-$header-font: sans-serif;
+$main-font: $ffTisaSans;
+$header-font: $grafolita;
 
 
 @mixin list-styles {
@@ -22,23 +22,26 @@ html {
   box-sizing: inherit;
 }
 
-h1, h2, ul, {
-	font-family: $main-font;
-	line-height: $default-line-height;
-}
-
 h1 {
-	font-size: 3.3em;
+	font-size: 4em;
+	font-family: $header-font;
+	line-height: $default-line-height;
 	text-align: center;
+	font-weight: 600;
 }
 
 h2 {
-	font-size: 1.8em;
+	font-size: 3.1em;
+	font-family: $ffMarket;
+	line-height: $default-line-height;
 	text-align: center;
+	color: #000066;
 }
 
 ul {
 	@include list-styles;
+	line-height: $default-line-height;
+	font-family: $main-font;
 }
 
 .container {
@@ -76,12 +79,12 @@ ul {
 }
 
 .attentionGetter {
-	border: 1px solid black;
-	width: 53%;
-	margin: 60px auto;
+	width: 55.5%;
+	margin: 30px auto;
 
 	video {
-		height: 350px;
+		min-height: 350px;
+		margin: 30px auto;
 	}
 
 	h3 {

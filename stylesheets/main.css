@@ -51,22 +51,26 @@ html {
 *, *:before, *:after {
   box-sizing: inherit; }
 
-h1, h2, ul {
-  font-family: helvetica;
-  line-height: 1.6; }
-
 h1 {
-  font-size: 3.3em;
-  text-align: center; }
+  font-size: 4em;
+  font-family: "grafolita-script", sans-serif;
+  line-height: 1.6;
+  text-align: center;
+  font-weight: 600; }
 
 h2 {
-  font-size: 1.8em;
-  text-align: center; }
+  font-size: 3.1em;
+  font-family: "ff-market-web", cursive;
+  line-height: 1.6;
+  text-align: center;
+  color: #000066; }
 
 ul {
   font-size: 1.6em;
   list-style-type: square;
-  line-height: 1.7; }
+  line-height: 1.7;
+  line-height: 1.6;
+  font-family: "ff-tisa-sans-web-pro", sans-serif; }
 
 .container {
   width: 1300px;
@@ -93,11 +97,11 @@ ul {
         left: 15px; }
 
 .attentionGetter {
-  border: 1px solid black;
-  width: 53%;
-  margin: 60px auto; }
+  width: 55.5%;
+  margin: 30px auto; }
   .attentionGetter video {
-    height: 350px; }
+    min-height: 350px;
+    margin: 30px auto; }
   .attentionGetter h3 {
     margin: 20px auto;
     text-align: center; }
