@@ -37,7 +37,7 @@
                 'textColor': '#000',
                 'bulletsColor': '#000',
                 'position': 'right',
-                'tooltips': ['Home', 'Mission', 'Problem', 'Solution', 'Opportunity', 'Competitors', 'Advantages', 'Model']
+                'tooltips': ['Home', 'Mission', 'Problem', 'Solution', 'Opportunity', 'Competitors', 'Advantages', 'Model', 'Conclusion']
         	},
             normalScrollElements: null,
             normalScrollElementTouchThreshold: 5,
